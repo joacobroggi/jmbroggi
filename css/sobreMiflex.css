@@ -21,7 +21,7 @@ nav {
 }
 .bienvenida {
   margin: 1vh 0;
-  min-height: 85.8vh;
+  height: 85.8vh;
   scroll-snap-align: start;
 }
 .actived {
@@ -727,13 +727,15 @@ a {
   }
   .bienvenida {
     margin-bottom: 0;
+    height: 100%;
   }
   .flex-container-5 {
     display: none;
   }
   .logo {
-    height: 10vh;
-    width: 40%;
+    height: 4rem;
+    width: 8rem;
+   
   }
   .h1 {
     font-size: 2.5rem;
@@ -758,7 +760,7 @@ a {
     display: flex;
     flex-direction: column;
     /* align-items: center; */
-    height: 100vh;
+    height: 100%;
     color: white;
     width: 90vw;
     background: rgba(49, 48, 54, 0.3);
@@ -853,12 +855,17 @@ a {
   .flex-container-2 {
     display: none;
   }
-
+  .carousel-item {
+    height: 100%;
+  }
+  .carousel {
+    height: 100%;
+  }
   .flex-container-2-m {
     display: flex;
     flex-direction: column;
     /* align-items: center; */
-    height: 120vh;
+    height: 100%;
     color: white;
     width: 100vw;
     background: rgba(49, 48, 54, 0.3);
