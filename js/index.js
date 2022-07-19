@@ -1,6 +1,6 @@
 let sobreMiBtn = document.querySelector('.sobreMi')
 let proyectosBtn = document.querySelector('.proyectos');
-let conocimientosBtn = document.querySelector('.god')
+let conocimientosBtn = document.querySelector('.servicios')
 let contactoBtn = document.querySelector('.contacto')
 // First we get the viewport height and we multiple it by 1% to get a value for a vh unit
 let vh = window.innerHeight * 0.01;
@@ -16,7 +16,7 @@ sobreMiBtn.addEventListener('click', function () {
     window.scroll(0,findPos(document.getElementById("sobreMi")));
 })
 conocimientosBtn.addEventListener('click', function () {
-    window.scroll(0,findPos(document.getElementById("carouselExampleCaptions")));
+    window.scroll(0,findPos(document.getElementById("flex-container-4")));
 })
 contactoBtn.addEventListener('click', function () {
     window.scroll(0,findPos(document.getElementById("contacto")));
