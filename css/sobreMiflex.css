@@ -710,6 +710,13 @@ a {
   width: 90vw;
   border-radius: 20px;
 }
+.carousel-item {
+  border-radius: 20px;
+}
+.linkProyectos {
+  font-size: 1.5rem;
+  
+}
   .nav-linkk {
     font-size: 2.2rem;
   }
@@ -743,7 +750,7 @@ a {
     margin-right: 1vw;
   }
   .h3 {
-    font-size: 5vw;
+    font-size: 1.3rem;
     width: 80%;
   }
   .foto {
