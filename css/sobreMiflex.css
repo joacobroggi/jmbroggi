@@ -1025,4 +1025,13 @@ a {
     background-size: cover;
     border-radius: 20px;
   }
+  .comunicacion {
+    background: url('../img/dolar.jpg');
+   
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px;
+  }
+  
+
 }
