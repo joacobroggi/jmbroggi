@@ -56,7 +56,7 @@ nav {
   height: 300px;
   border-radius: 50%;
   border: 1.5px solid #ffda10;
-  background-image: url("../img/nero.jpg");
+  background-image: url("../img/profile.jpeg");
   background-position: center;
   background-size: cover;
   margin: 0 auto;
@@ -150,7 +150,7 @@ nav {
 
   clip-path: polygon(0 0, 100% 0, 100% 100%, 10% 100%);
 
-  background-image: url("../img/nero.jpg");
+  background-image: url("../img/sobremi.jpeg");
   background-position: left;
 
   background-repeat: no-repeat;
@@ -384,6 +384,7 @@ a {
   margin-top: 2vh;
 }
 .h3-d {
+  
   font-family: "Poppins", sans-serif;
   font-weight: 100;
   color: white;
@@ -578,8 +579,8 @@ a {
   color: white;
 }
 .telegramLogo {
-  color: skyblue;
-  background-color: white;
+  color: white;
+  background-color: #25D366;
 }
 .emailLogo {
   background-color: white;
@@ -610,8 +611,72 @@ a {
 
 /* tablet */
 
+@media only screen and (max-width: 1000px) and (min-width: 750px) {
+  .navbar {
+    display: none;
+  }
+  .bienvenida {
+    height: 100%;
+  }
+  .h1 {
+    font-size: 2.5rem;
+  }
+  .h3 {
+    font-size: 1.5rem;
+  }
+  .h1-b {
+    font-size: 3rem;
+  }
+  .h3-b {
+    font-size: 2rem;
+  }
+  .p-b {
+    font-size: 1.3rem;
+  }
+  .btn-a {
+    font-size: 1.5rem;
+    padding: 1rem 3rem;
+  }
+  .h1-c {
+    font-size: 3rem;
+  }
+  .h3-c {
+    font-size: 2rem;
+  }
+  .p-c {
+    font-size: 1.3rem;
+  }
+  .btn-b {
+    font-size: 1.5rem;
+    padding: 1rem 0.5rem;
+  }
+  .linkProyectos {
+    font-size: 1.5rem;
+  }
+  .h1-d {
+    font-size: 3rem;
+  }
+  .h3-d {
+    font-size: 2rem;
+  }
+  .p-d {
+    font-size: 1.3rem;
+  }
+  .btn-c {
+    font-size: 1.5rem;
+    padding: 1rem 0.5rem;
+  }
+  .link-d {
+    font-size: 1.5rem;
+    padding: 1rem 1rem;
+  }
+}
 
-@media only screen and (max-width: 700px) and (min-width: 100px) {
+
+
+
+/* Mobile */
+@media only screen and (max-width: 750px) and (min-width: 100px) {
   .desktop {
     display: none;
   }
@@ -762,6 +827,7 @@ a {
   .texto {
     width: 85vw;
     margin-left: 6vw;
+    margin-right: 6vw;
   }
   .p-b-m {
     font-size: 1.1rem;
