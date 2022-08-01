@@ -1036,4 +1036,21 @@ a {
     margin-right: 1rem;
   }
 
+  .cd {
+    background: url('../img/cd.jpeg');
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+  }
+.agua {
+  background: url('../img/agua-mobile.jpg');
+  background-size: cover;
+  background-position: center;
+  border-radius: 20px;
+}
+  .lii {
+    font-size: 1.1rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+  }
 }
