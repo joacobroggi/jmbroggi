@@ -477,7 +477,7 @@ a {
   font-weight: 800;
   text-shadow: 0px 2.5px 2.5px #ffda10;
   -webkit-text-stroke: 1px #000;
-  font-size: 4rem;
+  font-size: 4vw;
   align-self: center;
   justify-self: center;
 }
@@ -499,6 +499,9 @@ a {
   margin-bottom: 2vh;
   padding: 2%;
   border-radius: 20px;
+}
+.accordion-button {
+  font-size: 1.5vw;
 }
 .info-contacto {
   width: 40vw;
@@ -530,8 +533,8 @@ a {
 }
 .mediosContacto {
   display: flex;
-  margin-top: auto;
-  align-self: flex-end;
+  margin-top: 5vh;
+  /* align-self: flex-end; */
 }
 .flex-container-red {
   align-items: center;
