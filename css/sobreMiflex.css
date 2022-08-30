@@ -689,6 +689,9 @@ a {
   .mobile {
     display: inline;
   }
+  .txt-bienvenidos {
+    height: 100%;
+  }
   html {
     scroll-snap-type: none;
     scroll-behavior: smooth;
